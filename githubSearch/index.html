@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Github Explorer</title>
+    <script src="https://kit.fontawesome.com/0511f88bf5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="head">devfinder</div>
+        <!-- <div class="light-dark mode">
+            <button class="color-mode_btn light--hidden"
+            aria-label="toggle light mode">
+                Light
+            </button>
+            <button class="color-mode_btn dark--hidden"
+            aria-label="toggle dark mode">
+                Dark
+            </button>
+        </div> -->
+
+    </header>
+    <div class="search">
+        <div class="searchText">
+            <i id="image" class="fa-solid fa-magnifying-glass"></i>
+            <input id="type" type="text" placeholder="Github Username">
+        </div>
+        <div class="searchbtn">Search</div>
+    </div>
+
+    <div class="resultbody">
+        <div class="githubhead">
+            <div class="mainimg"></div>
+            <div class="githubInfo">
+                <div class="githubUser">Github Username</div>
+                <div class="githubUserName"><a href="">@username</a></div>
+            </div>
+            <div id="joinedDate" class="githubJoinDate"></div>
+        </div>
+
+        <div class="githubFact">
+            <div class="githubBio"></div>
+
+
+            <div class="githubRepo">
+                <div class="repos">
+                    <div class="repoHeading">Repo</div>
+                    <div class="repoTotal">0</div>
+                </div>
+                <div class="followers">
+                    <div class="followerHeading">followers</div>
+                    <div class="followerTotal">0</div>
+                </div>
+                <div class="following">
+                    <div class="followingHeading">following</div>
+                    <div class="followingTotal">0</div>
+                </div>
+            </div>
+
+            <div class="githubSocial">
+                <div class="location">
+                    <i id="im" class="fa-solid fa-location-dot"></i>
+                    <p class="lactions">Location</p>
+                </div>
+                <div class="twitter">
+                    <i id="im" class="fa-brands fa-twitter im"></i>
+                    <p class="twit">Twitter</p>
+                </div>
+                <div class="website">
+                    <i id="im" class="fa-solid fa-globe im"></i>
+                    <p class="website">Website</p>
+                </div>
+                <div class="company">
+                    <i id="im" class="fa-solid fa-building im"></i>
+                    <p class="companies">Company</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
